@@ -1,0 +1,27 @@
+{
+  "param": {
+    "room_name": "Room 1024",
+    "players": [
+      {
+        "player_name": "aoikaze",
+        "player_position": 1,
+        "player_picture": "http://img.blabla.com/asd.png",
+        "player_id": 100
+      },
+      {
+        "player_name": "aoikaze2",
+        "player_position": 2,
+        "player_picture": "http://img.blabla.com/asd.png",
+        "player_id": 101
+      },
+      {
+        "player_name": "aoikaze3",
+        "player_position": 3,
+        "player_picture": "http://img.blabla.com/asd.png",
+        "player_id": 102
+      }
+    ],
+    "room_id": 1024
+  },
+  "method": "game_room_enter"
+}
