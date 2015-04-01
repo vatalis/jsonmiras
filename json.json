@@ -32,3 +32,57 @@
   },
   "method": "game_round_start"
 }
+
+{
+  "param": {
+    "room_id": 1024,
+    "card_set": [
+      {
+        "card_number": 1,
+        "card_suit": 2,
+        "card_index": 0
+      },
+      {
+        "card_number": 2,
+        "card_suit": 1,
+        "card_index": 1
+      }
+    ]
+  },
+  "method": "game_round_card"
+}
+
+{
+  "param": {
+    "turn_position": 2,
+    "room_id": 1024,
+    "last_card": {
+      "card_number": 2,
+      "card_suit": 2
+    },
+    "last_player": 1
+  },
+  "method": "game_turn_order"
+}
+
+{
+  "param": {
+    "player_position": 1,
+    "room_id": 1024,
+    "cards": [
+      1,
+      2
+    ],
+    "pass": false
+  },
+  "method": "game_turn_player"
+}
+
+{
+  "param": {
+    "player_position": 1,
+    "room_id": 1024
+  },
+  "method": "game_turn_timeout"
+}
+
