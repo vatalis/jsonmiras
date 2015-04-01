@@ -25,3 +25,10 @@
   },
   "method": "game_room_enter"
 }
+
+{
+  "param": {
+    "room_id": 1024
+  },
+  "method": "game_round_start"
+}
